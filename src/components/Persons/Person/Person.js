@@ -2,6 +2,7 @@ import React from "react";
 import personClasses from "./Person.css";
 
 const person = (props) => {
+  console.log("[person-child] renderd");
   return (
     // <div className="Person" style={style}>
     <div className={personClasses.Person}>
